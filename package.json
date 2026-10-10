@@ -1,12 +1,4 @@
-{
-  "name": "vault",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "dev": "wrangler pages dev public --kv=VAULT_META --r2=VAULT_BUCKET",
-    "deploy": "wrangler pages deploy public"
-  },
-  "devDependencies": {
-    "wrangler": "^3.80.0"
-  }
+"scripts": {
+  "dev": "wrangler pages dev public --kv=VAULT_META --r2=VAULT_BUCKET",
+  "deploy": "wrangler pages deploy public --project-name=vault"
 }
